@@ -3,32 +3,32 @@
 
 
 body{
-  background-color: black;
+  background-color: #FAEFDA;
   font-family: 'Poppins', sans-serif;
 }
 
 h1{
-  color: #F2BF27;
-  font-size: 40px;
-  text-align: center;
+  color: #626869;
+  font-size: 60px;
+  text-align: start;
+  font-weight: 400;
 }
 
 .container{
   position: absolute;
   top: 0%;
-  left: 50%;
-  width: 30%;
-  height: 70%;
-  background-color: black;
-  border: 3px solid #F2BF27;
-  border-radius: 20px;
+  left: 70%;
+  width: 24%;
+  height: 65%;
+  background-color: #626869;
+  border-radius: 15px;
   padding: 1rem;
   text-align: center;
   transform: translate(-50%, 20%);
 }
 
 button{
-  background-color: #F2AE2E;
+  background-color: #dfa652;
   color: white;
   border-radius: 10px;
   border: none;
@@ -58,6 +58,7 @@ h3{
   color: white;
   font-size: 25px;
   padding-bottom: 10px;
+  font-weight: 300;
 }
 
 label{
@@ -68,7 +69,7 @@ label{
   padding-top: 30px;
   padding-bottom: 20px;
   font-size: 20px;
-  color: white;
+  color: #dfa652;
   text-transform: uppercase;
 }
 

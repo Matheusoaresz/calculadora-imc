@@ -45,8 +45,8 @@ const firstDiv = document.querySelector('.first-step');
         {
             if(!peso.value && !altura.value)
             {
-                peso.style.border = '3px solid red';
-                altura.style.border = '3px solid red';
+                peso.style.border = '1px solid red';
+                altura.style.border = '1px solid red';
             }
             else if(!peso.value)
             {
@@ -63,33 +63,33 @@ const firstDiv = document.querySelector('.first-step');
             const result = document.getElementById('resultado');
             if(imc < 18.5)
             {
-                console.log('Magreza | Obesidade: 0');
-                result.style.color = 'yellow';
-                result.innerHTML = 'Magreza | Obesidade: 0';
+                console.log('Magreza');
+                result.style.color = '#dfa652';
+                result.innerHTML = 'Magreza <br /> Seu IMC é ' + imc;
             }
             else if(imc >= 18.5 && imc < 25)
             {
-                console.log('Normal | Obesidade: 0');
-                result.style.color = 'green';
-                result.innerHTML = 'Normal | Obesidade: 0';
+                console.log('Normal');
+                result.style.color = '#dfa652';
+                result.innerHTML = 'Normal <br /> Seu IMC é ' + imc;
             }
             else if(imc >= 25 && imc < 30)
             {
-                console.log('Sobrepeso | Obesidade: I');
-                result.style.color = 'yellow';
-                result.innerHTML = 'Sobrepeso | Obesidade: I';
+                console.log('Sobrepeso');
+                result.style.color = '#dfa652';
+                result.innerHTML = 'Sobrepeso <br /> Seu IMC é ' + imc;
             }
             else if(imc >= 30 && imc < 40)
             {
-                console.log('Obesidade | Obesidade: II');
-                result.style.color = 'red';
-                result.innerHTML = 'Obesidade | Obesidade: II';
+                console.log('Obesidade');
+                result.style.color = '#dfa652';
+                result.innerHTML = 'Obesidade II <br /> Seu IMC é ' + imc;
             }
             else
             {
                 console.log('Obesidade grave | Obesidade: III');
-                result.style.color = 'black';
-                result.innerHTML = 'Obesidade grave | Obesidade: III';
+                result.style.color = '#dfa652';
+                result.innerHTML = 'Obesidade grave <br /> Seu IMC é ' + imc;
             }
             go(2,3);
         }

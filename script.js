@@ -59,7 +59,7 @@ const firstDiv = document.querySelector('.first-step');
         }
         else
         {
-            let imc = peso.value / (altura.value * altura.value);
+            let imc = Math.round (peso.value / (altura.value * altura.value));
             const result = document.getElementById('resultado');
             if(imc < 18.5)
             {

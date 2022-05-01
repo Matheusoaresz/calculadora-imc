@@ -73,3 +73,59 @@ label{
   text-transform: uppercase;
 }
 
+
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .container{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 60%;
+   height: 45%;
+  }
+
+  p{
+    font-size: 25px;
+  }
+
+
+  label{
+    padding: 10px;
+  }
+  
+  .inputs{
+    padding-top: 10px;
+    font-size: 19px;
+  }
+
+  .first-step > button{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+  .second-step > button{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+  }
+
+  h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 300;
+  }
+
+  .button1{
+    padding: 10px;
+  }
+
+  .button2{
+    padding: 10px;
+  }
+}

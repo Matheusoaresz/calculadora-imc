@@ -73,6 +73,146 @@ label{
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 2000px){
+  h1{
+    font-size: 50px;
+    
+  }
+
+  .inputs{
+    font-size: 28px;
+    padding-bottom: 5px;
+  }
+
+  .container{
+    position: absolute;
+    top: 5%;
+    left: 70%;
+    width: 30%;
+   height: 70%;
+  }
+
+  h3{
+    font-size: 23px;
+    padding-bottom: 1px;
+    font-weight: 300;
+  }
+
+  .second-step > button{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    padding: 13px;
+    font-size: 22px;
+  }
+
+}
+
+
+@media only screen and (max-width: 1200px){
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .inputs{
+    font-size: 28px;
+    padding-bottom: 5px;
+  }
+
+  .container{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 60%;
+   height: 60%;
+  }
+
+  h3{
+    font-size: 21px;
+    padding-bottom: 1px;
+    font-weight: 300;
+  }
+
+  .second-step > button{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    padding: 13px;
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 992px){
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .inputs{
+    font-size: 28px;
+    padding-bottom: 5px;
+  }
+
+  .container{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 60%;
+   height: 60%;
+  }
+
+  h3{
+    font-size: 21px;
+    padding-bottom: 1px;
+    font-weight: 300;
+  }
+
+  .second-step > button{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    padding: 13px;
+    font-size: 20px;
+  }
+
+}
+
+
+@media only screen and (max-width: 772px){
+  h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .inputs{
+    font-size: 15px;
+  }
+
+  .container{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 60%;
+   height: 45%;
+  }
+
+  h3{
+    font-size: 17px;
+    padding-bottom: 1px;
+    font-weight: 300;
+  }
+
+  .second-step > button{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+}
 
 @media only screen and (max-width: 600px) {
   h1{
